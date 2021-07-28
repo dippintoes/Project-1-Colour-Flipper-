@@ -1,0 +1,51 @@
+body{
+    background-color: #E5FBB8;
+    margin:auto;
+}
+
+.nav-links ul{
+    display: inline-flex;
+}
+.nav-links li{
+    display: inline-flex;
+    padding-left: 420px;
+   
+    justify-content: space-between;
+    font-size: 36px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color:darkmagenta;
+}
+
+.nav-links li a:hover{
+    text-decoration: dotted;
+    color:darkred;
+    transition: transform 250ms;
+    transform: translateX(12px);
+}
+.Container{
+    display: block;
+    
+}
+.btn{
+    background-color: darkmagenta;
+    color: cornsilk;
+    border-radius: 15px;
+    padding: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow:10px 5px 5px black;
+    transition: transform 350ms;
+}
+.btn:hover{
+    background-color: salmon;
+    color:darkslategray;
+    transform: translateY(-10px);
+}
+#footer{
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+            bottom: 0;
+}
